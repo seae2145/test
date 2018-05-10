@@ -21,6 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSString *test;
+    NSString *test2;
     [self.tableview registerNib:[UINib nibWithNibName:NSStringFromClass([TableViewCell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass([TableViewCell class])];
    
 }
