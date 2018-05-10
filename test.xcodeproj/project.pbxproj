@@ -15,6 +15,10 @@
 		E1D2BE6E2062320000BE2714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D2BE6D2062320000BE2714 /* main.m */; };
 		E1D2BE782062320000BE2714 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D2BE772062320000BE2714 /* testTests.m */; };
 		E1D2BE832062320000BE2714 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D2BE822062320000BE2714 /* testUITests.m */; };
+		E1D2BE932062322F00BE2714 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D2BE912062322F00BE2714 /* ViewController2.m */; };
+		E1D2BE942062322F00BE2714 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D2BE922062322F00BE2714 /* ViewController2.xib */; };
+		E1D2BE982062341400BE2714 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D2BE962062341400BE2714 /* TableViewCell.m */; };
+		E1D2BE992062341400BE2714 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D2BE972062341400BE2714 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		E1D2BE7E2062320000BE2714 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D2BE822062320000BE2714 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		E1D2BE842062320000BE2714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D2BE902062322F00BE2714 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		E1D2BE912062322F00BE2714 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		E1D2BE922062322F00BE2714 /* ViewController2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		E1D2BE952062341400BE2714 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		E1D2BE962062341400BE2714 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		E1D2BE972062341400BE2714 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,12 @@
 				E1D2BE5F2062320000BE2714 /* AppDelegate.m */,
 				E1D2BE612062320000BE2714 /* ViewController.h */,
 				E1D2BE622062320000BE2714 /* ViewController.m */,
+				E1D2BE902062322F00BE2714 /* ViewController2.h */,
+				E1D2BE912062322F00BE2714 /* ViewController2.m */,
+				E1D2BE922062322F00BE2714 /* ViewController2.xib */,
+				E1D2BE952062341400BE2714 /* TableViewCell.h */,
+				E1D2BE962062341400BE2714 /* TableViewCell.m */,
+				E1D2BE972062341400BE2714 /* TableViewCell.xib */,
 				E1D2BE642062320000BE2714 /* Main.storyboard */,
 				E1D2BE672062320000BE2714 /* Assets.xcassets */,
 				E1D2BE692062320000BE2714 /* LaunchScreen.storyboard */,
@@ -239,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1D2BE6B2062320000BE2714 /* LaunchScreen.storyboard in Resources */,
+				E1D2BE992062341400BE2714 /* TableViewCell.xib in Resources */,
+				E1D2BE942062322F00BE2714 /* ViewController2.xib in Resources */,
 				E1D2BE682062320000BE2714 /* Assets.xcassets in Resources */,
 				E1D2BE662062320000BE2714 /* Main.storyboard in Resources */,
 			);
@@ -266,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1D2BE632062320000BE2714 /* ViewController.m in Sources */,
+				E1D2BE932062322F00BE2714 /* ViewController2.m in Sources */,
 				E1D2BE6E2062320000BE2714 /* main.m in Sources */,
+				E1D2BE982062341400BE2714 /* TableViewCell.m in Sources */,
 				E1D2BE602062320000BE2714 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
